@@ -1,0 +1,11 @@
+.DogList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: hsl(271, 100%, 84%);
+    max-width: 600px;
+    padding: 10px;
+    width: 600px;
+}

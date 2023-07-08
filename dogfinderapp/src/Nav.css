@@ -1,0 +1,24 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.Nav a{
+    background-color: whitesmoke;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Nav a:hover{
+    background-color: gainsboro;
+}
+
+.Nav a.active{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: hsl(271, 100%, 84%);
+}

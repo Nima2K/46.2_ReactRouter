@@ -1,0 +1,25 @@
+.DogDetails{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: hsl(271, 100%, 84%);
+    width: 600px;
+    padding: 10px;
+}
+
+.DogDetails img{
+    width: 500px;
+}
+
+.DogDetails *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.DogDetails ul{
+    list-style-type: none;
+    text-align: center;
+}
